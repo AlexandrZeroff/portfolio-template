@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  </head>
+  <body>
+    <svg
+      style="position: absolute; width: 0; height: 0; overflow: hidden"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+          <path
+            d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+    <section id="hello">
+      <div class="hello-flex-wrap">
+        <div class="menu-wrap">
+          <svg class="icon menu-icon"><use xlink:href="#icon-menu"></use></svg>
+          <div class="flex-wrap-row menu-links">
+            <a href="#works">Works</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hello-grid">
+          <div class="profile-photo">
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="source/jpg/profile-max.jpg"
+              />
+              <img
+                src="source/jpg/profile-min.jpg"
+                alt="Something went wrong.."
+              />
+            </picture>
+          </div>
+          <p class="header-32 hello-header">
+            Hi, I am John, Creative Technologist
+          </p>
+          <p class="margin-5-20 desc hello-desc">
+            The objective of designing a site is to ensure that when the users
+            open up the site they see the information in a format that is easy
+            to read and relevant.
+          </p>
+          <div class="hello-btn">
+            <button class="btn-red">Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="posts">
+      <div class="flex-wrap-column flex-centered">
+        <div class="flex-wrap-row posts-head-row">
+          <p class="desc font-s18">Recent posts</p>
+          <p class="desc posts-link">View all</p>
+        </div>
+        <div class="posts-wrap">
+          <div class="post">
+            <p class="header-22">Making a design system from scratch</p>
+            <div class="flex-wrap-row">
+              <p id="post_date" class="desc margin-r">12 Feb 2020</p>
+              <p class="desc margin-r">|</p>
+              <p class="desc margin-r">Design, Pattern</p>
+            </div>
+            <p class="desc">
+              The developer must ensure that the site is responsive i.e. it
+              appears correctly on devices of all sizes no part of the website
+              should behave abnormally irrespective of the size of the screen.
+            </p>
+          </div>
+          <div class="post">
+            <p class="header-22">Creating pixel perfect icons in Figma</p>
+            <div class="flex-wrap-row">
+              <p id="post_date" class="desc margin-r">14 Feb 2020</p>
+              <p class="desc margin-r">|</p>
+              <p class="desc margin-r">Design, Pattern</p>
+            </div>
+            <p class="desc">
+              The part of a website that the user interacts with directly is
+              termed the front end. It is also referred to as the ‘client side’
+              of the application. It includes everything that users experience
+              directly: text colors and styles, images, graphs and tables,
+              buttons, colors, and navigation menu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="works">
+      <div class="flex-wrap-column margin-l-r">
+        <p class="desc font-s18 margin-t-b centered works-header">
+          Featured works
+        </p>
+        <div class="flex-wrap-column">
+          <div class="work-wrap">
+            <picture class="work-pic centered">
+              <source
+                media="(min-width: 800px)"
+                srcset="source/jpg/work1-min.jpg"
+              />
+              <img src="source/jpg/work1.jpg" alt="Designing Dashboards" />
+            </picture>
+            <div class="flex-wrap-column">
+              <p class="header-22 no-margin">Designing Dashboards</p>
+              <div class="flex-wrap-row justify-left">
+                <span class="rounded text-white margin-r">2022</span>
+                <p class="desc text-faded margin-r">Dashboard</p>
+              </div>
+              <p class="desc no-margin">
+                The part of a website that the user interacts with directly is
+                termed the front end. It is also referred to as the ‘client
+                side’ of the application. It includes everything that users
+                experience directly: text colors and styles, images, graphs and
+                tables, buttons, colors, and navigation menu.
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="flex-wrap-column hided-work">
+          <div class="work-wrap">
+            <picture class="work-pic centered">
+              <source
+                media="(min-width: 800px)"
+                srcset="source/jpg/work2.jpg"
+              />
+              <img src="source/jpg/work2.jpg" alt="Vibrant Portraits" />
+            </picture>
+            <div class="flex-wrap-column">
+              <p class="header-22 no-margin">Vibrant Portraits of 2020</p>
+              <div class="flex-wrap-row justify-left">
+                <span class="rounded text-white margin-r">2018</span>
+                <p class="desc text-faded margin-r">Illustration</p>
+              </div>
+              <p class="desc no-margin">
+                Specifies participation in first- or last-baseline alignment:
+                aligns the alignment baseline of the box’s first or last
+                baseline set with the corresponding baseline in the shared first
+                or last baseline set of all the boxes in its baseline-sharing
+                group.
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="flex-wrap-column hided-work">
+          <div class="work-wrap">
+            <picture class="work-pic centered">
+              <source
+                media="(min-width: 800px)"
+                srcset="source/jpg/work3.jpg"
+              />
+              <img src="source/jpg/work3.jpg" alt="36 Days" />
+            </picture>
+            <div class="flex-wrap-column">
+              <p class="header-22 no-margin">36 Days of Malayalam type</p>
+              <div class="flex-wrap-row justify-left">
+                <span class="rounded text-white margin-r">2018</span>
+                <p class="desc text-faded margin-r">Typography</p>
+              </div>
+              <p class="desc no-margin">
+                If the combined size of the items along the cross axis is less
+                than the size of the alignment container and the item is
+                auto-sized, its size is increased equally (not proportionally),
+                while still respecting the constraints.
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <footer class="flex-wrap-column flex-centered">
+        <div class="empty-5"></div>
+        <div class="flex-wrap-row social-links">
+          <img
+            class="social-icon"
+            src="./source/jpg/icons/fb.jpg"
+            alt="Fb link"
+          />
+          <img
+            class="social-icon"
+            src="./source/jpg/icons/insta.jpg"
+            alt="Insta link"
+          />
+          <img
+            class="social-icon"
+            src="./source/jpg/icons/linkedin.jpg"
+            alt="Linkedin link"
+          />
+          <img
+            class="social-icon"
+            src="./source/jpg/icons/twitter.jpg"
+            alt="Twitter link"
+          />
+        </div>
+        <p class="desc">Copyright ©2020 All right reserved</p>
+      </footer>
+    </section>
+  </body>
+</html>
