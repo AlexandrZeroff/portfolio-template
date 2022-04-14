@@ -339,4 +339,5 @@ hr{
 .social-links{
   min-width: 280px;
   justify-content: space-around;
+  margin-bottom: 2vh;
 }

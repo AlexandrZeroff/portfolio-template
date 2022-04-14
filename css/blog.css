@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("../fonts/Heebo/static/Heebo-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+:root {
+  --MainFont: "Heebo", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--MainFont);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+hr {
+  border-top: 1px solid #e0e0e0;
+  margin: 1em 0 2em 0;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.faded {
+  color: #8695a4;
+}
+
+.margin-r-2 {
+  margin-right: 2vw;
+}
+
+.empty-5 {
+  height: 5vh;
+}
+
+.main-container {
+  justify-content: center;
+  margin: 0 5vw;
+}
+
+@media (min-width: 560px) {
+  .main-container {
+    margin: 0 10vw;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-container {
+    margin: 0 20vw;
+  }
+}
+
+.menu-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 70px;
+  min-width: 100%;
+  align-items: center;
+}
+
+.menu-links {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .menu-links {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+.menu-links > a {
+  outline: none;
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.icon {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  margin: 0 5vw 0 0;
+}
+
+.menu-icon {
+  color: black;
+}
+
+@media (min-width: 800px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+#current-link {
+  color: #ff6464;
+}
+
+.post-data {
+  justify-content: flex-start;
+}
+
+.post-content {
+  margin-right: 8vw;
+}
+
+.footer {
+  align-items: center;
+}
+
+.social-links {
+  min-width: 280px;
+  justify-content: space-around;
+  margin-bottom: 2vh;
+}
